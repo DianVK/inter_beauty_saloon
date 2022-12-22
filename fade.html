@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.7
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Център за обучение и услуги - Inter Beauty </title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   4000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	500,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+														{image : 'снимки/1.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/1.JPG', url : ''},
+														{image : 'снимки/2.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/2.JPG', url : ''},  
+														{image : 'снимки/3.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/3.JPG', url : ''},
+														{image : 'снимки/4.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/4.JPG', url : ''},
+														{image : 'снимки/5.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/5.JPG', url : ''},
+														{image : 'снимки/6.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/6.JPG', url : ''},
+														{image : 'снимки/7.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/7.JPG', url : ''},
+														{image : 'снимки/8.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/8.JPG', url : ''},
+														{image : 'снимки/9.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/9.JPG', url : ''},
+														{image : 'снимки/10.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/10.JPG', url : ''},  
+														{image : 'снимки/11.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/11.JPG', url : ''},
+														{image : 'снимки/12.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/12.JPG', url : ''},
+														{image : 'снимки/13.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/13.JPG', url : ''},
+														{image : 'снимки/14.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/14.JPG', url : ''},
+														{image : 'снимки/15.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/15.JPG', url : ''},
+														{image : 'снимки/16.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/16.JPG', url : ''},
+														{image : 'снимки/17.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/17.JPG', url : ''},
+														{image : 'снимки/18.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/18.JPG', url : ''},
+														{image : 'снимки/19.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/19.JPG', url : ''},
+														{image : 'снимки/20.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/20.JPG', url : ''},
+														{image : 'снимки/21.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/21.JPG', url : ''},
+														{image : 'снимки/22.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/22.JPG', url : ''},  
+														{image : 'снимки/23.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/23.JPG', url : ''},
+														{image : 'снимки/24.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/24.JPG', url : ''},
+														{image : 'снимки/25.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/25.JPG', url : ''},
+														{image : 'снимки/26.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/26.JPG', url : ''},
+														{image : 'снимки/27.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/27.JPG', url : ''},
+														{image : 'снимки/28.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/28.JPG', url : ''},
+														{image : 'снимки/29.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/29.JPG', url : ''},
+														{image : 'снимки/30.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/30.JPG', url : ''},
+														{image : 'снимки/31.JPG', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/31.JPG', url : ''}
+														{image : 'снимки/new (1).jpg', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/new (1).jpg', url : ''},
+														{image : 'снимки/new (2).jpg', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/new (2).jpg', url : ''},  
+														{image : 'снимки/new (3).jpg', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/new (3).jpg', url : ''},
+														{image : 'снимки/new (4).jpg', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/new (4).jpg', url : ''},
+														{image : 'снимки/new (5).jpg', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/new (5).jpg', url : ''},
+														{image : 'снимки/new (6).jpg', title : 'Център за обучение и услуги - Inter Beauty', thumb : 'снимки/new (6).jpg', url : ''},
+														
+														
+														new (1)
+														
+														]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+		ul#demo-block{ margin:0 15px 15px 15px; }
+			ul#demo-block li{ margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('img/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
+			ul#demo-block li a{ color:#eee; font-weight:bold; }
+	</style>
+
+<body>
+
+	<!--Demo styles (you can delete this block)-->
+	
+	<ul id="demo-block">
+		<li><a href="index.html" target="_blank"><img src="img/supersized-logo.png"/></a></li>
+		</ul>
+	
+	<!--End of styles-->
+
+	<!--Thumbnail Navigation-->
+	<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			
+			<a id="play-button"><img id="pauseplay" src="img/pause.png"/></a>
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			
+			<!--Thumb Tray button-->
+			<a id="tray-button"><img id="tray-arrow" src="img/button-tray-up.png"/></a>
+			
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+			
+		</div>
+	</div>
+
+</body>
+</html>
